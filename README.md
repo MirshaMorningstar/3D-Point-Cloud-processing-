@@ -357,6 +357,9 @@ A comparative analysis between PointNet and DGCNN involves evaluating their perf
 ## Architecture - Comparison and Complexity Analysis 
 
 ### PointNet:
+
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/070bd0c1-f650-41c5-8b70-181479649a82)
+
 #### Shared MLP (Multi-Layer Perceptron):
 Functionality:
 - PointNet processes each point independently through a shared MLP.
