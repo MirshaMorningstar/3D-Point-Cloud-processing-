@@ -181,7 +181,7 @@ The experimental setup for object classification involves preparing the datasets
 ### Evaluation Protocol:
 - Cross-validation: 5-fold or 10-fold for reliable performance estimates
 - Metrics: Accuracy, precision, recall, F1-score, confusion matrices
-- 
+
 ![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/3b940caf-9d3b-4f56-9448-d73dec261e00)
 
 ## Results and Performance Metrics on ShapeNet and ModelNet10
@@ -267,7 +267,7 @@ Implementing part segmentation involves configuring PointNet and DGCNN architect
 
 ![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/47adf844-427d-4dca-b2ac-76ebe4b0f85e)
 
-![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/7282e178-dbbf-4fc7-a977-eacf2dfce2b5)  ![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/7a58d186-45ad-4f71-9dcc-127f6dbbb8ad)
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/7282e178-dbbf-4fc7-a977-eacf2dfce2b5)        ![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/7a58d186-45ad-4f71-9dcc-127f6dbbb8ad)
 
 
 Evaluation metrics for part segmentation include IoU (Intersection over Union), mean IoU, per-category IoU, precision, recall, and accuracy. Results from experiments on benchmark datasets, along with visualizations of segmented parts, help analyze the models' performance in accurately delineating object parts within point clouds.
