@@ -98,6 +98,8 @@ DGCNN, or Dynamic Graph Convolutional Neural Network, is another influential arc
 - Models are organized into over 55 categories, representing common objects, furniture, vehicles, and more.
 - Provides both CAD models and aligned RGB-D images for many objects.
 
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/6bae46c0-6c78-4117-9105-1b0a14eb557d)
+
 #### Characteristics
 - **Size**: Over 2 million 3D models
 - **Format**: OBJ, PLY, and VRML
@@ -117,10 +119,11 @@ DGCNN, or Dynamic Graph Convolutional Neural Network, is another influential arc
 - Commonly used for 3D object classification and shape retrieval tasks.
 
 #### Dataset Applications
-- 3D object classification
--
 
- 3D shape retrieval
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/3d0bda34-5e85-4295-a8c5-1c3b89fe51ed)
+
+- 3D object classification
+- 3D shape retrieval
 - 3D point cloud processing
 - 3D deep learning
 
@@ -178,6 +181,8 @@ The experimental setup for object classification involves preparing the datasets
 ### Evaluation Protocol:
 - Cross-validation: 5-fold or 10-fold for reliable performance estimates
 - Metrics: Accuracy, precision, recall, F1-score, confusion matrices
+- 
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/3b940caf-9d3b-4f56-9448-d73dec261e00)
 
 ## Results and Performance Metrics on ShapeNet and ModelNet10
 The evaluation of object classification performance on ShapeNet and ModelNet10 datasets includes assessing metrics like accuracy, precision, recall, and F1-score. Results indicate the effectiveness of PointNet and DGCNN in accurately classifying objects within point clouds. Additionally, visualizations or confusion matrices might be presented to illustrate the models' performance across different object categories.
@@ -259,6 +264,12 @@ Implementing part segmentation involves configuring PointNet and DGCNN architect
 - Monitor performance on validation set for early stopping.
 
 ### Evaluation Metrics and Results Analysis
+
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/47adf844-427d-4dca-b2ac-76ebe4b0f85e)
+
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/7282e178-dbbf-4fc7-a977-eacf2dfce2b5)  ![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/7a58d186-45ad-4f71-9dcc-127f6dbbb8ad)
+
+
 Evaluation metrics for part segmentation include IoU (Intersection over Union), mean IoU, per-category IoU, precision, recall, and accuracy. Results from experiments on benchmark datasets, along with visualizations of segmented parts, help analyze the models' performance in accurately delineating object parts within point clouds.
 
 ### Metrics:
@@ -376,6 +387,8 @@ Functionality:
 - Symmetric functions enable PointNet to operate on unordered point sets.
 
 ### DGCNN:
+![image](https://github.com/MirshaMorningstar/3D-Point-Cloud-processing-/assets/84216040/3fc357cd-adfb-4386-b84f-d6939f8e6a6a)
+
 #### EdgeConv (Edge Convolution):
 Functionality:
 - DGCNN introduces EdgeConv layers to capture local geometric features based on the edges between points.
